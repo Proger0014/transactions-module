@@ -16,7 +16,7 @@ import java.util.List;
 
 @SpringBootTest
 public class PerformanceTest {
-    private static final Logger logger = LoggerFactory.getLogger(PerformanceTest.class);
+    private final Logger logger = LoggerFactory.getLogger(PerformanceTest.class);
 
     private final TransactionProcessor transactionProcessor;
     private final Timer timer;
